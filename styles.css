@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .skills-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .skills-icons img {
+    width: 60px;
+    height: 60px;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .certificate-box img {
+    width: 200px;
+    height: auto;
+    margin: 1rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  
