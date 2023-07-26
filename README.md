@@ -1,2 +1,2 @@
 # portfolio
-A practice Portfolio Website
+A Portfolio Website for Myself
